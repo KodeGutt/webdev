@@ -8,7 +8,10 @@ a{
     margin: auto;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, 186px, 300px);
+    grid-template-columns: repeat(auto-fill, 260px, 300px);
+    background-color: #e1e8f0;
+    background-image: url("../bilder/rom.jpg");
+    background-size: 100% auto;
 
   }
 
@@ -36,6 +39,19 @@ main > article{
 
 }
 
+/* Elsker stygge farger */
+
+.farge{
+    color: white;
+}
+
+.bla{
+    background-color: #6ed3cf;
+    opacity: 0.7;
+}
+
+
+
 aside{
     position: relative;
 }
@@ -46,6 +62,8 @@ aside section{
     display: flex;
     flex-flow: column;
     margin: 1em auto;
+    background-color: #bd8c7d;
+    opacity: 0.7;
 }
 
 aside section a{
@@ -58,7 +76,7 @@ aside section a{
     text-align: center;
     font-size: 20px;
     background-image: url("../bilder/kukk.jpeg");
-    background-size: 100% auto;
+    background-size: 110% auto;
     border: solid 1px black;
     grid-row: 1 ;
 
@@ -69,6 +87,7 @@ aside section a{
     grid-column: 1 / 5 ;
     grid-row: 2;
     text-align: center;
+    background-color: #9068be;
 }
 
 nav a{
@@ -99,6 +118,7 @@ nav a{
     grid-row: 5;
     border: solid 1px black;
     text-align: center;
+    background-color: #3a4660;
 }
 
 
