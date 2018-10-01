@@ -15,18 +15,6 @@ a{
 
   }
 
-.bodyartikkel {
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fill, 260px, 300px);
-    background-color: #e1e8f0;
-    background-image: url("../bilder/rom.jpg");
-    background-size: 100% auto;
-
-  }
-
 
 
 ul li{
@@ -92,9 +80,6 @@ aside section a{
 
 }
 
-img{
-    height: 80%;
-}
 .nav{
     border: solid 1px black;
     grid-column: 1 / 5 ;
@@ -121,18 +106,9 @@ nav a{
     grid-template-rows: 2fr;
     margin: 1em;
     padding: 10px;
+    min-width: 200px;
 }
 
-.mainartikkel{
-    margin-top: 1em;
-    padding: 10px;
-    grid-column: 1 / 2 ;
-    grid-row: 3 ;
-    /*border: solid 1px black;*/
-    display: inline-flex;
-    flex-wrap: wrap;
-    grid-template-rows: 2fr;
-}
 
 .footer{
     grid-column: 1 / 5;
@@ -150,3 +126,4 @@ nav a{
 
 
 }
+
